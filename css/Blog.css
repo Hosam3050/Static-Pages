@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav_bar,
+footer {
+  height: 40%;
+  overflow: hidden;
+  background-color: #373b44;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  /* margin: 10px; */
+  /* padding:0px ; */
+}
+.logo {
+  color: #373b44;
+  text-decoration: none;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 700;
+  margin-left: 60px;
+}
+
+ul {
+  margin-left: 150px;
+}
+nav ul li {
+  display: inline-block;
+  margin:  -1px;
+}
+nav ul li a {
+  color: white;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #ff7360;
+}
+#active {
+  background-color: #ff7360;
+}
+
+.secound-bar {
+  background-color: #ff7361;
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 100;
+}
+.secound-bar p {
+  margin-left: 50px;
+}
+
+.blog_desc {
+  align-items: center;
+  text-align: center;
+    width: 100%;
+  /* padding: 30px 0px; */
+  background-color: #f3f3f3;
+  margin:10px;
+}
+.blog_desc h1 {
+  font-size: 30px;
+
+  text-transform: uppercase;
+  color: #55585f;
+}
+.blog_desc p {
+  color: #55585f;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.continer {
+  margin: 20px 100px 0 0;
+  display: flex;
+}
+.continer h1 {
+  padding: 5px;
+}
+
+.continer img {
+  width: 95%;
+}
+.continer button {
+  padding: 5px 10px;
+  color: #fff;
+  background: #373b44;
+}
+.info {
+  width: 50%;
+  list-style-type: none;
+  /* padding: 40px; */
+  margin:5px 40px;
+
+
+}
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+
+.Category {
+  width: 40%;
+  margin: 5px  0 0 10px;
+}
+.Category ul li {
+  list-style-type: none;
+  /* padding: 10px; */
+  margin-right: 200px;
+}
+.Category i {
+  color: #e65d4b;
+}
+.Category h4 {
+  margin-top: 20px;
+}
+.list{
+    gap: 10px;
+margin-top: 5px;
+
+    /* padding: 10px; */
+}
+.info-2 {
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 60px; */
+  margin:5px 40px;
+
+}
+
+footer {
+  text-align: center;
+}
+footer i {
+  padding: 15px;
+  font-size: x-large;
+  color: #e7e0e0;
+}

@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav_bar,
+footer {
+    height: 40%;
+    overflow: hidden;
+    background-color: #373b44;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    /* margin: 10px; */
+    /* padding:0px ; */
+
+}
+
+.logo {
+    color: #373b44;
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+ul {
+    margin-left: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin:  -1px;
+}
+
+nav ul li a {
+    color: white;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px;
+
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #ff7360;
+
+
+}
+
+#active {
+    background-color: #ff7360;
+}
+
+.secound-bar {
+    background-color: #ff7361;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 100;
+}
+
+.secound-bar p {
+    margin-left: 50px;
+}
+
+.work_desc {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #f3f3f3;
+}
+
+.work_desc h1 {
+    font-size: 30px;
+
+    text-transform: uppercase;
+    color: #55585f;
+}
+
+.work_desc p {
+    color: #55585f;
+    padding: 20px;
+    font-size: 16px;
+}
+.our_work {
+    background: #ff7361;
+    display: inline-block;
+    width: 90%;
+    margin:40px  70px;
+  }
+  .our_work i {
+    background: #e65d4b;
+    color: #fff;
+    padding: 15px;
+  }
+  .our_work span {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+  }
+
+
+
+.continer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.cards{
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+
+}
+
+footer i {
+    padding: 15px;
+    font-size: x-large;
+    color: #e7e0e0;
+}
